@@ -1,0 +1,22 @@
+.footer-section{
+    background-color: #2E2F42;
+}
+.footer-title{
+font-family: Raleway;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.33;
+text-transform: uppercase;
+color: #F4F4FD;
+text-decoration: none;
+letter-spacing: 0.03em;
+}
+.footer-text{
+font-size: 16px;
+line-height: 1.5;
+color: #f4f4fd;
+letter-spacing: 0.02em;
+}
+.span{
+    color: #4D5AE5;
+}
