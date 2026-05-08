@@ -5,6 +5,7 @@
     text-align: center;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    padding-bottom: 72px;
 }
 .portfolio-info h3{
     font-weight: 500;
@@ -12,10 +13,27 @@
     line-height: 1.2;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 .portfolio-info p{
 font-size: 16px;
 line-height: 1.5;
 color: #434455;
 letter-spacing: 0.02em;
+padding-bottom: 32px;
+}
+.container-portfolio{
+    margin: 0 auto;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfolio-info{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }

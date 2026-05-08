@@ -10,13 +10,25 @@ text-transform: uppercase;
 color: #F4F4FD;
 text-decoration: none;
 letter-spacing: 0.03em;
+padding-bottom: 16px;
 }
 .footer-text{
 font-size: 16px;
 line-height: 1.5;
 color: #f4f4fd;
 letter-spacing: 0.02em;
+max-width: 264px;
 }
 .span{
     color: #4D5AE5;
+}
+.container-footer{
+    margin: 0 auto;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
 }
