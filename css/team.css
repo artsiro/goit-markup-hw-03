@@ -30,13 +30,11 @@ padding-bottom: 72px;
 }
 .team-info li{
     background-color: #ffff;
+    border-radius: 0 0 4px 4px;
 }
 .team-info{
     display: flex;
     justify-content: space-between;
-}
-.team-info img{
-    border-radius: 0 0 4px 4px;
 }
 .team-text{
     display: flex;

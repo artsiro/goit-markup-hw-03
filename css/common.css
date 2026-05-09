@@ -37,12 +37,7 @@ img{
   clip-path: inset(100%);
   margin: -1px;
 }
-.container-header, 
-.container-hero,
-.container-features, 
-.container-team,
-.container-portfolio,
-.container-footer{
+.container{
     margin: 0 auto;
     max-width: 1158px;
     padding-left: 15px;

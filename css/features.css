@@ -4,7 +4,7 @@
     color: #2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .features-text p{
     color: #434455;
@@ -12,11 +12,18 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.features-text{
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
+.features-section{
     padding-top: 120px;
     padding-bottom: 120px;
-    flex-basis: calc ((100% - 3 * 24px) / 4);
+}
+.container-features{
+    display: flex;
+    flex-direction: column;
+}
+.features-text{
+    display: flex;
+    gap: 24px;
+}
+.features-text li{
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
