@@ -19,6 +19,7 @@
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: flex;
 }
 
 .header-contact .link{
@@ -64,6 +65,4 @@
 .header-section{
     border-bottom: solid 1px #E7E9FC;
     display: flex;
-     padding-top: 24px;
-    padding-bottom: 24px;
 }
