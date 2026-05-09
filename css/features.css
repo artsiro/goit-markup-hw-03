@@ -16,7 +16,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.container-features{
+.container{
     display: flex;
     flex-direction: column;
 }
