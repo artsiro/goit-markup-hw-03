@@ -12,16 +12,11 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.container-features{
-    margin: 0 auto;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 .features-text{
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    flex-basis: calc ((100% - 3 * 24px) / 4);
 }

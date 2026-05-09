@@ -12,6 +12,8 @@
     flex-direction: row;
     padding: 16px 32px;
     border-radius: 4px;
+    margin-bottom: 188px;
+    border: none;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -28,18 +30,13 @@
     display: block;
     max-width: 496px;
     margin-bottom: 48px;
+    padding-top: 188px;
 }
 .hero-section{
     background-color: #2E2F42;
 }
 .container-hero{
     display: flex;
-    margin: 0 auto;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 188px;
-    padding-top: 188px;
     align-items: center;
     flex-direction: column;
     justify-content: center;

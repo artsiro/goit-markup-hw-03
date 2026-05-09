@@ -15,8 +15,6 @@ padding-bottom: 72px;
     text-align: center;
     color: #2E2F42;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 8px;
 }
 .team-info p{
     font-size: 16px;
@@ -24,25 +22,27 @@ padding-bottom: 72px;
     text-align: center;
     color: #434455;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
-
 }
 .team-section{
     background-color: #f4f4fd;
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 .team-info li{
     background-color: #ffff;
 }
-.container-team{
-    margin: 0 auto;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 .team-info{
     display: flex;
-    gap: 24px;
     justify-content: space-between;
+}
+.team-info img{
+    border-radius: 0 0 4px 4px;
+}
+.team-text{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
