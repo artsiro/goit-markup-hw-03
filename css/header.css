@@ -54,7 +54,7 @@
     flex-direction: row;
     gap: 40px;
     align-self: flex-start;
-    margin: 0 340px 0 auto;
+    margin-right: 340px;
 }
 .header-contact{
     display: flex;
@@ -65,4 +65,7 @@
 .header-section{
     border-bottom: solid 1px #E7E9FC;
     display: flex;
+}
+.span{
+    color: #4D5AE5;
 }
