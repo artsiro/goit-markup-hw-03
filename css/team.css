@@ -34,7 +34,6 @@ padding-bottom: 72px;
 }
 .team-info{
     display: flex;
-    justify-content: space-between;
     gap: 24px;
 }
 .team-text{
